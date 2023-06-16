@@ -1,7 +1,6 @@
 # Table of contents
 
-* [User Manual](README.md)
-* [1. Introduction](1.-introduction.md)
+* [1. Introduction](README.md)
 * [2. Menus](2.-menus/README.md)
   * [2.1 Warps](2.-menus/2.1-warps.md)
   * [2.2 Cheats](2.-menus/2.2-cheats.md)
