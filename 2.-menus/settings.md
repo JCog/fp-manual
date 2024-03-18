@@ -1,15 +1,8 @@
-# 2.9 Settings
+# Settings
 
-This is where most of the functionality of fp is configured.
+This is where most of the functionality of fp is configured. Use the +/- buttons to select which profile is selected to save/load from. When the game starts, the settings saved to profile 0 are automatically loaded, if any.
 
-* **profile**: Selects which profile to save and load settings to and from. When the game starts, the settings saved to profile zero are automatically loaded, if any.
-* **font**: Selects the font of the menu.
-* **drop shadow**: Enables/disables the menu drop shadow. Disabling drop shadow can reduce the graphical computation impact of the menu, but may also reduce readability.
-* **menu position**: Moves the on-screen position of the entire menu.
-* **timer position**: Moves the on-screen position of the timer display.
-* **input display**: Enables/disables and moves the position of the input display. The analog mode can be set with **control stick** to `numerical`, `graphical`, and `both`. To account for different control stick ranges, **graphical range** can be adjusted to scale the maximum analog value for the _graphical_ and _both_ displays up to a maximum value of 127.
-* **log**: Enables/disables and moves the position of all log messages.
-* **commands**: See below.
+* **menu appearance, display, commands**: See below.
 * **save settings**: Saves the current settings to the currently selected profile.
 * **load settings**: Loads the settings from the currently selected profile.
 * **restore defaults** Restores all saved settings to their default values (Does not affect saved profiles). If the saved settings were to become corrupted in such a way that they prevent the game from starting, holding the Start button when the game is starting will load the default settings instead of loading profile zero.
@@ -21,6 +14,23 @@ The following settings are saved:
 * Command button binds.
 * Activated cheats.
 * Activated trainers.
+
+#### Menu Appearance
+
+* **font**: Selects the font of the menu.
+* **drop shadow**: Enables/disables the menu drop shadow. Disabling drop shadow can reduce the graphical computation impact of the menu, but may also reduce readability.
+* **position**: Moves the on-screen position of the entire menu.
+* **background**: Toggles the black background that appears behind the settings.
+* **alpha**: Adjusts the opacity of the background
+
+#### Display
+
+* **logging**: Enables/disables and moves the position of all log messages.
+* **input display**: Enables/disables and moves the position of the input display.
+* **analog type**: Selects whether to display the analog stick as `numerical`, `graphical`, or `both`.&#x20;
+* **graphical range**: Adjusts the maximum analog value for the _graphical_ and _both_ displays up to a maximum value of 127. This is to account for varying analog ranges on different controllers.
+
+#### Commands
 
 The **commands** menu lets you bind commands to custom button combinations and/or activate them manually. Pressing the name of a command will activate that command, and pressing the button combo in the right column will bind a button combo to the corresponding command. If you want to unbind a command, press and keep holding L when starting the binding. A button combo for any given command can contain at most four buttons. When activating a command with a button combo, the button combo must explicitly be input the way it appears in the commands menu. For example, a command with the button combo `R + A` will only be activated if you press R first and then A, or R and A at the same time. `A + R`, or `R + B + A` will not activate the corresponding command. If the set of buttons in one button combo is a subset of those in another button combo, the former will be overridden by the latter when both are active simultaneously.
 

@@ -1,6 +1,6 @@
-# 2.5 Practice
+# Practice
 
-Both the **trainers** and **timer** menu have a `save settings` button. This button has the same function as the one in settings (see [Settings](2.9-settings.md)) which is saving all fp settings to the current profile.
+Both the **trainers** and **timer** menu have a `save settings` button. This button has the same function as the one in settings (see [Settings](settings.md)) which is saving all fp settings to the current profile.
 
 #### Trainers
 
@@ -26,4 +26,4 @@ The timer has three modes, **cutscene, loading zone,** and **manual**.
 
 The timer will continue to function even if the utility menu is closed, but by default it will not be displayed when running due to lag concerns. Additionally, no log messages related to the timer will be displayed when the timer is running. These can be changed by toggling the `show timer` and `timer logging` options. You can also move the location of the timer with `timer position`. These settings can be saved to your current settings profile with `save settings`.
 
-Note that button combinations can be configured for the `start/stop` and `reset` functions, and the position of the timer can be configured in settings (see [Settings](2.9-settings.md)).
+Note that button combinations can be configured for the `start/stop` and `reset` functions, and the position of the timer can be configured in settings (see [Settings](settings.md)).
