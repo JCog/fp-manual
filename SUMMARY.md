@@ -1,6 +1,7 @@
 # Table of contents
 
-* [1. Installation](README.md)
+* [Introduction](README.md)
+* [1. Installation](<README (1).md>)
 * [2. Menus](2.-menus/README.md)
   * [Warps](2.-menus/warps.md)
   * [Cheats](2.-menus/cheats.md)

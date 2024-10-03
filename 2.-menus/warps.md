@@ -1,4 +1,4 @@
-# 2.1 Warps
+# Warps
 
 #### Locations
 
@@ -12,6 +12,6 @@ After selecting an area, map, and entrance, selecting `warp` will immediately wa
 
 #### Bosses
 
-The **bosses** menu provides a list of every major, minor, and optional boss in the game. By selecting a boss, you will warp to the room that the boss is located in, and your story progress and any necessary flags will be set to allow you to fight the boss, regardless of your current state.
+The **bosses** menu provides a list of every major, minor, and optional boss in the game. Upon making a selection, you will immediately enter the corresponding battle. If you're already in battle at the time, that battle will first be exited. Note that this can have strange effects if you're in a scripted battle.
 
 Also note that when warping directly to Bowser's second phase, because the game normally carries Bowser's HP over from the first phase, a menu to select his starting HP is provided.
