@@ -9,11 +9,10 @@ This is where most of the functionality of fp is configured. Use the +/- buttons
 
 The following settings are saved:
 
-* Menu and on-screen displays appearances and settings.
-* Watches.
-* Command button binds.
+* Everything in the settings menu (menu appearance, display, commands, and misc.).
 * Activated cheats.
-* Activated trainers.
+* Trainer selections.
+* Watches.
 
 #### Menu Appearance
 
@@ -25,7 +24,9 @@ The following settings are saved:
 
 #### Display
 
-* **logging**: Enables/disables and moves the position of all log messages.
+* **logging**: Enables/disables and moves the screen position of all log messages.
+* **flag logging**: Enables/disables displaying logs for game flag changes (See [Debug](debug.md)).
+* **pinned trainer**: Moves the position of pinned trainer displays (See [Trainers](practice.md#trainers)).
 * **input display**: Enables/disables and moves the position of the input display.
 * **analog type**: Selects whether to display the analog stick as `numerical`, `graphical`, or `both`.&#x20;
 * **graphical range**: Adjusts the maximum analog value for the _graphical_ and _both_ displays up to a maximum value of 127. This is to account for varying analog ranges on different controllers.
@@ -52,10 +53,17 @@ The following commands are available:
 * **start/stop timer**: Sets the timer to start after the next cutscene or starts/stops the timer, depending on the timer mode. _Default: `unbound`_
 * **reset timer**: Sets the timer back to 0 and reverts it to an inactive state. _Default: `unbound`_
 * **show/hide timer**: Toggles whether the timer is showing when it's active. _Default: `unbound`_
-* **break free**: Attempts to break any effect that removes control of Mario. _Default: `L + D-Down`_
-* **toggle in. disp.**: Toggles the visibility of the input display.
-* **clippy**: Toggles the "clippy" state on and off.
+* **break free**: Attempts to break any effect that removes control of Mario. _Default: `R + L + D-Down`_
+* **toggle in. disp.**: Toggles the visibility of the input display. _Default: `unbound`_
+* **clippy**: Toggles the "clippy" state on and off. _Default: `L + D-Up`_
+* **store ability**: Toggles storing the state of your partner's ability for your next warp. For example, enabling this while riding Lakilester will let you warp to another map while still riding him. _Default: `B + D-Left`_
+* **ignore walls**: Toggles Mario's horizontal collision. _Default: `B + D-Up`_
+* **floor clip**: Teleports Mario 20 units down on the y-axis, which is generally enough to clip him through the floor without snapping back up. _Default: `L + D-Down`_
 
-_**Warning:**_ Unbinding the _show/hide menu_ or _return from menu_ commands, or binding them to a button combination that will interfere with menu navigation can make it impossible to use the utility menu. If this happens, you can restore the default settings by entering the following button sequence: `D-Up D-Up D-Down D-Down D-Left D-Right D-Left D-Right B A`.
+_**Warning:**_ Unbinding the _show/hide menu_ or _return from menu_ commands (or binding them to a button combination that will interfere with menu navigation) can make it impossible to open the utility menu. If this happens, you can restore the default settings by entering the following button sequence: `D-Up D-Up D-Down D-Down D-Left D-Right D-Left D-Right B A`.
 
 _Note:_ Button combos that interfere with menu navigation for commands that aren't related to menuing are disabled while the utility menu is active.
+
+#### Misc
+
+* **quick launch**: Toggles skipping file select and automatically loading the most recently loaded save file (if one exists) at launch.
